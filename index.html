@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>行程資訊</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; line-height: 1.6; }
+    .schedule-table { width: 100%; max-width: 100%; box-sizing: border-box; overflow-x: hidden; }
+    .schedule-table .row { display: flex; flex-wrap: wrap; margin: 5px 0; border-bottom: 1px dotted #ccc; padding-bottom: 8px; }
+    .schedule-table .label { flex: 1 1 150px; font-weight: bold; color: #24666B; box-sizing: border-box; }
+    .schedule-table .value { flex: 2 1 100%; box-sizing: border-box; }
+    @media (min-width: 601px) {
+      .schedule-table .row { flex-wrap: nowrap; }
+      .schedule-table .value { flex: 2 1 auto; }
+    }
+  </style>
+</head>
+<body>
+  <h2>預定行程</h2>
+  <div class="schedule-table">
+    <div class="row">
+      <div class="label">距離及爬升</div>
+      <div class="value">Pending</div>
+    </div>
+    <div class="row">
+      <div class="label">撤退及轉進</div>
+      <div class="value">Pending</div>
+    </div>
+    <div class="row">
+      <div class="label">困難地形</div>
+      <div class="value">Pending</div>
+    </div>
+    <div class="row">
+      <div class="label">參考紀錄</div>
+      <div class="value">Pending</div>
+    </div>
+  </div>
+</body>
+</html>
